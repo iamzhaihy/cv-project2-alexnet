@@ -227,7 +227,22 @@ print("The accuracy score of our model is", score)
 
 
 
+## References
 
-
-
-
+- Original Paper: https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
+- CIFAR-100 Dataset
+  - Website: https://www.cs.toronto.edu/~kriz/cifar.html
+  - Keras API to load data: https://keras.io/api/datasets/cifar100/
+- Keras API
+  - `Sequential` model: https://keras.io/api/models/sequential/
+  - Convolution layer:https://keras.io/api/layers/convolution_layers/convolution2d/
+  - Normalization layer: https://keras.io/api/layers/normalization_layers/batch_normalization/
+  - Max Pooling layer: https://keras.io/api/layers/pooling_layers/max_pooling2d/
+  - Flatten layer: https://keras.io/api/layers/reshaping_layers/flatten/
+  - Fully-Connected layer: https://keras.io/api/layers/core_layers/dense/
+  - Dropout layer: https://keras.io/api/layers/regularization_layers/dropout/
+  - Compiling the model: https://keras.io/api/models/model_training_apis/
+- Other functions used:
+  - `keras.utils.to_categorical`:  https://keras.io/api/utils/python_utils/
+  - `numpy.random.random`: https://numpy.org/doc/stable/reference/random/generated/numpy.random.random.html
+  - `sklearn.metrics.accuracy_score`: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html
